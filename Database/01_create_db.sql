@@ -1,7 +1,7 @@
 USE master;
 GO
 
-DROP DATABASE sample1;
+IF NOT DB_ID('sample1') IS NULL DROP DATABASE sample1;
 GO
 
 CREATE DATABASE sample1;
