@@ -1,1 +1,2 @@
 CREATE DATABASE sample1;
+GO
