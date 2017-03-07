@@ -10,6 +10,12 @@ GO
 USE sample1;
 GO
 
+CREATE TABLE t1(
+    id INT IDENTITY(1,1) NOT NULL,
+    val VARCHAR(50) NOT NULL,
+    CONSTRAINT pk_t1 PRIMARY KEY(id)
+);
+GO
 
 USE master;
 GO
